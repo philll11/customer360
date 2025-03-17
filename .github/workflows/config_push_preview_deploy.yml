@@ -21,7 +21,7 @@ jobs:
         
       - name: Get asyncapi file in the commit
         id: changed_files
-        uses: tj-actions/changed-files@v40
+        uses: tj-actions/changed-files@v46
         with:
           files: | 
             asyncapi*
